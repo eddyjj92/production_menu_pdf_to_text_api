@@ -1,0 +1,64 @@
+# Entornos virtuales
+.venv/
+venv/
+env/
+ENV/
+
+# Archivos de configuración de entorno
+.env
+.env.*
+
+# Archivos de dependencias
+poetry.lock
+Pipfile.lock
+
+# Archivos de compilación
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.manifest
+*.spec
+# Archivos de logs y bases de datos locales
+*.log
+*.sqlite3
+*.db
+
+# Archivos de pruebas
+htmlcov/
+.coverage
+.tox/
+.nox/
+.pytest_cache/
+.cache/
+
+# Archivos de configuración del editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Archivos de Docker
+*.tar
+*.img
+*.bak
+Dockerfile.*
+docker-compose.override.yml
+
+# Archivos de frontend (si aplica)
+node_modules/
+*.tsbuildinfo
+*.map
+
+# Archivos de documentación y otros
+*.pdf
+*.docx
+*.pptx
+
+# Archivos de seguridad
+*.pem
+*.key
+*.crt

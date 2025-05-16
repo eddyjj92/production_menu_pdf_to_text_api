@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: .  # Directorio donde está el Dockerfile
+      dockerfile: Dockerfile  # Nombre del archivo Dockerfile
+    ports:
+      - "7000:7000"  # Mapear el puerto del host al puerto del contenedor
+    volumes:
+      - .:/app  # Montar el directorio actual en /app dentro del contenedor
+    restart: unless-stopped  # Política de reinicio
